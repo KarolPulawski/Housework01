@@ -20,7 +20,6 @@ public class GenerateRandom {
         for(int i = 0 ; i < interval; i++) {
             map.put(i, 0);
         }
-
         for(int i = 0; i < amount; i++) {
             Integer key = random.nextInt(interval);
             if(map.containsKey(key)) {
